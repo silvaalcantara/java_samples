@@ -15,7 +15,7 @@ public class FormatPrinting {
         double measure = 53.234567;
         
         
-        System.out.printf("\n\nProducts: \nComputer, which price is $ %.2f\nOffice desk, wich price is $ %.2f", price1, price2);
+        System.out.printf("\n\nProducts: \n%s, which price is $ %.2f\n%s, wich price is $ %.2f", product1, price1, product2, price2);
         System.out.printf("\n\nRecord: %d years old, code %d and gender: %s\n", age, code, gender);
         System.out.printf("Measure with eight decimal places: %.8f\n", measure);
         System.out.printf("\nRounded (three decimal places): %.3f", measure);
