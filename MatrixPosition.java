@@ -25,9 +25,8 @@ public class MatrixPosition {
         for(int i=0; i<mat.length; i++) {
             for(int j=0; j<mat[i].length; j++) {
                 if(mat[i][j] == element) {
-                    System.out.println(i);
-                    System.out.println(j);
-                    System.out.printf("%nPosition %d, %d%n" ,i ,j);
+                    System.out.println();
+                    System.out.printf("\nPosition %d, %d%n" ,i ,j);
 
                     System.out.print(j > 0 ? "Left: " + mat[i][j-1] : "");                
                     System.out.print(i > 0 ? "\nUp: " + mat[i-1][j] : "");
